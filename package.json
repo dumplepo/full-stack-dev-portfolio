@@ -4,11 +4,11 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "homepage": "https://portfolio.lewishadden.co.uk",
-  "author": "Lewis Hadden <lewishadden@gmail.com>",
+  "homepage": "https://portfolio.dumplepo.co.uk",
+  "author": "Lewis Hadden <dumplepo@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git@github.com:lewishadden/portfolio-next.git"
+    "url": "git@github.com:dumplepo/portfolio-next.git"
   },
   "engines": {
     "node": "20.18.0",
@@ -17,7 +17,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "npm run icons:generate && next build && next-image-export-optimizer && npm run purgecss && next-sitemap",
-    "purgecss": "purgecss -c purgecss.config.cjs",
+    "purgecss": "node scripts/purgecss.cjs",
     "analyze": "ANALYZE=true next build",
     "start": "serve out",
     "typecheck": "tsc --noEmit",

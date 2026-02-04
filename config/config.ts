@@ -10,4 +10,4 @@ export const headerLinks = [
   },
 ];
 
-export const githubRepoUrl = 'https://github.com/lewishadden/portfolio-next';
+export const githubRepoUrl = 'https://github.com/dumplepo/portfolio-next';

@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 export default {
-  siteUrl: process.env.SITE_URL || 'https://portfolio.lewishadden.co.uk',
+  siteUrl: process.env.SITE_URL || 'https://portfolio.dumplepo.co.uk',
   generateRobotsTxt: true,
   changefreq: 'weekly',
   priority: 1.0,

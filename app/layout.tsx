@@ -83,7 +83,7 @@ export const metadata: Metadata = {
     title: `${personName} — Freelance Full Stack Developer`,
     description,
     images: [profileImage],
-    creator: '@lewishadden',
+    creator: '@dumplepo',
   },
   robots: {
     index: true,
